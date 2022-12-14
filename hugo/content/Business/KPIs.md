@@ -1,0 +1,1 @@
+Key performance indicators. Helps measure your current success against past data. A KPI might be sales.

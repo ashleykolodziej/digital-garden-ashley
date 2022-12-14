@@ -1,0 +1,25 @@
+{{ if eq .Title ".Site.Title" }}
+	{{ with .File }}
+		<h1>{{ .File.BaseFileName | humanize | title }}</h1>
+	{{ end }}
+{{ end }}
+
+{{ $scratch := newScratch }}
+
+{{ $wikiregex := "\\[\\[([^/]+?)\\]\\]" }}
+{{ $wikilinks := .Content | findRE $wikiregex }}
+
+{{ $scratch.Set "currentPage" . }}
+
+{{ range $wikilinks }}
+	{{ $scratch.Set "link" (urlize .) }}
+	{{ $scratch.Get "link" | print }}
+	{{ $filename := slice ($scratch.Get "link") }}
+	{{ $filename = $filename | append "." "m" "d" }}
+	{{ print $filename | safeHTML }}
+	{{relref ($scratch.Get "currentPage") $filename | print}}
+	{{ print "<br/>" | safeHTML }}
+	{{ printf "%s%s%s%s%s%s" "<a href=\"../../" ($scratch.Get "link") ".html" "\">" ($scratch.Get "link") "</a>" | safeHTML }}
+{{ end }}
+
+{{ .Content | replaceRE "\\[\\[([^/]+)\\]\\]" "<a href=\"$1\">$1</a>" | safeHTML }}

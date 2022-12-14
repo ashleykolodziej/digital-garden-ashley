@@ -1,0 +1,19 @@
+<h1>{{.Site.Title}}</h1>
+<h2>Pages</h2>
+
+{{ range .Site.Pages.GroupBy "Section" }}
+	<h3>{{ .Key | humanize | title }}</h3>
+    <ul>
+    	{{ range .Pages }}
+		<li>
+	        <a href="{{.Permalink}}">
+	        	{{ if eq .Title ".Site.Title" }}
+	        		{{ with .File }}
+	        			{{ .File.BaseFileName | humanize | title }}
+	        		{{ end }}
+				{{ end }}
+			</a>
+	    </li>
+		{{ end }}
+    </ul>
+{{ end }}

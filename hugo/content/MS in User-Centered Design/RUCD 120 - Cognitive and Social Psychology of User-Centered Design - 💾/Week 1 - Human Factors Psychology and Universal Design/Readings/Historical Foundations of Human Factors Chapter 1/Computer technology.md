@@ -1,0 +1,15 @@
+### Computer technology
+- brief history of computing here. Refer to PDF
+	- "Everyone who wrote programs during this era (such as the authors of this textbook) remembers having to go through the tedious procedure of locating and correcting typographical errors on badly punched cards, dropping the sometimes huge deck of cards and hopelessly mixing them up, and receiving cryptic, indecipherable error messages when a program crashed."
+	- I should talk about this in [[Design and Interactive Experiences]] when we talk about errors, npm
+- development of PCs
+	- a host of usability issues suddenly accessible by the general public
+	- forced the development of user-friendly operating system designs, GUI, Macintosh
+	- GUI forced development of mouse (pointing device)
+- still ongoing usability challenges in software UI
+	-  with a new piece of software, it is often hard to figure out what the different icons in its interface represent
+- internet
+	- tons of info but no one could find it
+	- Tons of variance in design
+- smartphones
+	-  A host of other usability issues are introduced by smartphones because of the devices’ small display screens and restricted forms of user input (Rahmati et al., 2012).

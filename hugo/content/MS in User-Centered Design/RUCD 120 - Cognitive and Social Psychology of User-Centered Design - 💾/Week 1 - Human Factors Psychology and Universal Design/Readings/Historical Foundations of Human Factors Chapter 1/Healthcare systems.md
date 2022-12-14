@@ -1,0 +1,3 @@
+### Healthcare systems
+- At the turn of the century, the Institute of Human Medicine published a report, To Err Is Human: Building a Safer Health System (Kohn,Corrigan, & Donaldson, 2000). This report pointed out that **between 44,000 and 98,000 deaths annually** were occurring as a result of human error during healthcare, and called for research clarifying the causes of the errors and a shift in focus of the healthcare system toward one of patient safety.
+- electronic medical records, which allow the sharing of medical information among many parties, including possibly patients, must be usable by all potential users

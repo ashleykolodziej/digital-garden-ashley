@@ -1,0 +1,2 @@
+# Packaging
+In InDesign, packaging refers to the process of collecting all the assets related to a file, such as images and fonts, and combining them into one folder. It's usually used for sending a file to another designer or to print, because assets usually aren't embedded directly in InDesign files to help improve their performance.

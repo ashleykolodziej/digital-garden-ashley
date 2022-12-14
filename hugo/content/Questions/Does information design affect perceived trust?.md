@@ -1,0 +1,1 @@
+# Does information design affect perceived trust?
