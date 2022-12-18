@@ -6,15 +6,8 @@
 
 {{ .Scratch.Add "processedContent" .RawContent }}
 
-{{/*
-	Need some regex to find embed syntax with the ![[syntax]]
-	From there, I could do readfile {{ os.ReadFile "README.md" }}
-	using the relative reference here
-	markdownify, and add to content
-*/}}
-
 {{- partial "wikilinks-embed.html" . -}}
 
-{{/*- partial "wikilinks-link.html" . -*/}}
+{{- partial "wikilinks-link.html" . -}}
 
 {{ .Scratch.Get "processedContent" | safeHTML }}

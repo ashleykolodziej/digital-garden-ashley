@@ -1,4 +1,4 @@
-{{ $processedContent := .Scratch.Get "processedContent" | markdownify }}
+{{ $processedContent := .Scratch.Get "processedContent" }}
 
 {{ $firstBracket := `(\[\[` }}
 {{ $lastBracket := `\]\])` }}
