@@ -4,10 +4,7 @@
 	{{ end }}
 {{ end }}
 
-{{ $scratch := newScratch }}
-
-{{ $firstBracket := `(\[\[` }}
-{{ $lastBracket := `\]\])` }}
+{{ .Scratch.Add "processedContent" .RawContent }}
 
 {{/*
 	Need some regex to find embed syntax with the ![[syntax]]
@@ -16,43 +13,6 @@
 	markdownify, and add to content
 */}}
 
-{{ $wikiregex := `\[\[([^/]+?)\]\]` }}
-{{ $wikilinks := .Content | findRE $wikiregex }}
-{{ $scratch.Set "currentPage" . }}
+{{- partial "wikilinks.html" . -}}
 
-{{ $.Scratch.Add "content" .RawContent }}
-{{ $content := .Scratch.Get "content" | markdownify }}
-
-{{ range $wikilinks }}
-	{{/* Get the filename */}}
-	{{ $filename := trim . "[]" }}
-	{{ $extension := path.Ext $filename }}
-	{{ $filename = htmlUnescape $filename }}
-
-	{{/* Hugo can't find files with dots in them without an extension. */}}
-	{{ if (eq $extension "") }}
-		{{ if (strings.Contains $filename ".") }}
-			{{ $filename = printf "%s%s" $filename ".md" }}
-		{{ end }}
-
-		{{/* Find the relative reference using the filename */}}
-		{{ $rel := relref ($scratch.Get "currentPage") $filename }}
-
-		{{/* Escape the filename because I created bad filenames */}}
-		{{ $escapedFilename := $filename | replaceRE `\?` `\?` }}
-		{{ $escapedFilename = $escapedFilename | replaceRE `\.` `\.` }}
-		{{ $escapedFilename = $escapedFilename | replaceRE `\(` `\(` }}
-		{{ $escapedFilename = $escapedFilename | replaceRE `\)` `\)` }}
-		{{ $escapedFilename = $escapedFilename | replaceRE `\"` `\"` }}
-
-		{{/* Save a copy of the wikilink regex for later replacement */}}
-		{{ $wikilink :=  printf "%s%s%s" $firstBracket $escapedFilename $lastBracket }}
-
-		{{/* Create the link HTML */}}
-		{{ $link := printf "%s%s%s%s%s" "<a href=\"" $rel "\">" $filename "</a>" }}
-		{{ $noteContent := $content | replaceRE $wikilink $link }}
-		{{ $content = $noteContent }}
-	{{ end }}
-{{ end }}
-
-{{ $content | safeHTML }}
+{{ .Scratch.Get "processedContent" | safeHTML }}
