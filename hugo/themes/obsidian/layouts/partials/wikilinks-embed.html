@@ -1,0 +1,54 @@
+{{/*
+	Need some regex to find embed syntax with the ![[syntax]]
+	From there, I could do readfile {{ os.ReadFile "README.md" }}
+	using the relative reference here
+	markdownify, and add to content
+*/}}
+
+{{ $processedContent := .Scratch.Get "processedContent" | markdownify }}
+
+{{ $firstBracket := `(\!\[\[` }}
+{{ $lastBracket := `\]\])` }}
+
+{{ $wikiregex := `\!\[\[([^/]+?)\]\]` }}
+{{ $wikiembeds := $processedContent | findRE $wikiregex }}
+
+{{ $currentPage := . }}
+
+{{ range $wikiembeds }}
+	{{/* Get the filename */}}
+	{{ $filename := trim . "![]" }}
+	{{ $extension := path.Ext $filename }}
+	{{ $filename = htmlUnescape $filename }}
+
+	{{/* Hugo can't find files with dots in them without an extension. */}}
+	{{ if (eq $extension "") }}
+		{{ $fullfilename := printf "%s%s" $filename ".md" }}
+
+		{{/* Find the relative reference using the filename */}}
+		{{ $rel := relref $currentPage $fullfilename }}
+		{{ $parts := split $rel "/" }}
+		{{ $base := first (sub (len $parts) 2) $parts }}
+		{{ $fileref := path.Join $base $fullfilename }}
+		{{ $embedContent := os.ReadFile $fileref | markdownify }}
+
+		{{/* Escape the filename because I created bad filenames */}}
+		{{ $escapedFilename := $filename | replaceRE `\?` `\?` }}
+		{{ $escapedFilename = $escapedFilename | replaceRE `\.` `\.` }}
+		{{ $escapedFilename = $escapedFilename | replaceRE `\(` `\(` }}
+		{{ $escapedFilename = $escapedFilename | replaceRE `\)` `\)` }}
+		{{ $escapedFilename = $escapedFilename | replaceRE `\"` `\"` }}
+
+		{{/* Save a copy of the wikilink regex for later replacement */}}
+		{{ $wikilink :=  printf "%s%s%s" $firstBracket $escapedFilename $lastBracket }}
+
+		{{ $noteContent := $processedContent | replaceRE $wikilink $embedContent }}
+
+		{{/* Wrap in HTML for styling */}}
+		{{ $noteContent = printf "%s%s%s" `<div class="embed">` $noteContent `</div>` }}
+
+		{{ $processedContent = $noteContent }}
+	{{ end }}
+{{ end }}
+
+{{ $.Scratch.Set "processedContent" $processedContent }}

@@ -13,6 +13,8 @@
 	markdownify, and add to content
 */}}
 
-{{- partial "wikilinks.html" . -}}
+{{- partial "wikilinks-embed.html" . -}}
+
+{{/*- partial "wikilinks-link.html" . -*/}}
 
 {{ .Scratch.Get "processedContent" | safeHTML }}
