@@ -9,6 +9,13 @@
 {{ $firstBracket := `(\[\[` }}
 {{ $lastBracket := `\]\])` }}
 
+{{/*
+	Need some regex to find embed syntax with the ![[syntax]]
+	From there, I could do readfile {{ os.ReadFile "README.md" }}
+	using the relative reference here
+	markdownify, and add to content
+*/}}
+
 {{ $wikiregex := `\[\[([^/]+?)\]\]` }}
 {{ $wikilinks := .Content | findRE $wikiregex }}
 {{ $scratch.Set "currentPage" . }}
