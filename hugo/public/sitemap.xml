@@ -1,14 +1,453 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
-    <loc>http://example.org/pages/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>http://example.org/</loc>
-  </url><url>
-    <loc>http://example.org/categories/</loc>
-  </url><url>
     <loc>http://example.org/tags/</loc>
   </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/video-games/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/user-research/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/technologies/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/questions/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/morality/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/management/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/development/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/design/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/data-visualization/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/content/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/business/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/business/business-strategy-strategic-goals-and-measures/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/business/kpis/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/business/managing-client-feedback/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/business/raising-rates/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/content/concepts/slow-media/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/data-visualization/concepts/clustering/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/data-visualization/concepts/cognition-and-processing-of-data-by-graphic-type/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/data-visualization/concepts/high-dimensional-data/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/data-visualization/people/charles-joseph-minard/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/data-visualization/people/francis-galton/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/data-visualization/types/chernoff-faces/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/data-visualization/types/dot-map/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/data-visualization/types/isolines/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/data-visualization/types/mosaic-plots/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/data-visualization/types/star-plots/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/data-visualization/types/statistical-sculpture/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/data-visualization/types/stereograms/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/data-visualization/types/tree-representations/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/data-visualization/types/types-of-graphs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/design/concepts/color-banding/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/design/concepts/grayscale/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/design/concepts/principles-of-design/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/design/concepts/responsive-design/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/design/concepts/service-design/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/design/concepts/typeface-classifications/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/design/principles/calm-technology/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/design/tools/adobe-creative-cloud/indesign/packaging/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/design/tools/interaction-design-tools/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/design/types/interaction-design/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/development/tools/build-tools/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/development/tools/content-management-systems/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/development/tools/css/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/development/tools/html/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/development/tools/javascript/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/development/tools/version-control/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/development/tools/web-packaging/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/discussion-rubric/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/hugo-tests/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/management/leadership-qualities/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/management/management-styles/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/management/team-charter/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/morality/images/impact-of-local-meat-vs-transported-vegetables/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/morality/intention/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/morality/the-purpose-of-systems/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/morality/veganism/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/morality/wheel-of-power/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/learning-objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/readings/color-blindness-how-to-design-an-accessible-user-interface/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/readings/dimensions-of-color-demo/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/readings/google-material-design-about-sound/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/readings/sensation-introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/readings/sensation-auditory-and-visual/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/readings/signal-detection-attention/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/readings/visual-search-demo/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/summary/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/to-do/assignment/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/to-do/this-weeks-replies/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/to-do/this-weeks-topic/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-6-ui-design-part-i/learning-objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-6-ui-design-part-i/summary/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-6-ui-design-part-i/to-do/assignment/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-6-ui-design-part-i/to-do/this-weeks-replies/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-6-ui-design-part-i/to-do/this-weeks-topic/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/learning-objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/readings/design-for-fingers-touch-and-people-part-3/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/readings/design-for-fingers-touch-and-people-part-1/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/readings/design-for-fingers-touch-and-people-part-2/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/readings/dynamic-displays/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/readings/metaphors-idioms-affordances/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/readings/natural-user-interfaces-are-not-natural/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/summary/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/to-do/assignment/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/to-do/this-weeks-replies/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/to-do/this-weeks-topic/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/learning-objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/readings/designing-for-belonging/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/readings/designing-for-motivationengagement-and-wellbeing...-60-min./</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/readings/game-set-match-getting-gamification-right/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/readings/gamification-in-theory-and-action/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/readings/intrinsic-and-extrinsic-motivations/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/readings/summary-slides-motivation-social-belonging-20-min./</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/readings/the-three-environments-that-create-every-employee-experience/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/summary/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/to-do/assignment/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/to-do/this-weeks-replies/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/to-do/this-weeks-topic/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/questions/does-information-design-affect-perceived-trust/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/questions/how-do-you-continue-learning-beyond-public-school/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/questions/what-is-the-purpose-of-libraries/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/technologies/concepts/internet-of-things/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/technologies/types/artificial-intelligence/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/technologies/types/augmented-reality/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/technologies/types/facial-recognition/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/technologies/types/infrared-vision/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/technologies/types/virtual-reality/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/user-research/tools/mturk/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/video-games/chain-rxn/</loc>
+  </url>
+  
 </urlset>

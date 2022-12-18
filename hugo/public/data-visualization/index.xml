@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.Site.Title on Ashley Notes</title>
+    <link>http://example.org/data-visualization/</link>
+    <description>Recent content in .Site.Title on Ashley Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/data-visualization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/concepts/clustering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/concepts/clustering/</guid>
+      <description>Source: https://towardsdatascience.com/cluster-analysis-create-visualize-and-interpret-customer-segments-474e55d00ebb</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/concepts/cognition-and-processing-of-data-by-graphic-type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/concepts/cognition-and-processing-of-data-by-graphic-type/</guid>
+      <description>   Type Process used Natural strengths Inherent weaknesses     Graph Visual Patterns and relationships, time Precise detail   Table Verbal Sequential processing, one-to-one comparison, exact values High level patterns, &amp;ldquo;big picture&amp;rdquo; relationships, changes over time    </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/concepts/high-dimensional-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/concepts/high-dimensional-data/</guid>
+      <description>Where the number of features is greater than the number of entries/observations.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/people/charles-joseph-minard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/people/charles-joseph-minard/</guid>
+      <description>Charles Joseph Minard  [[Charles Joseph Minard]] (early innovations towards [[mosaic plots]])  ![[Screenshot 2022-01-02 at 8.05.38 PM.png]]    divided circle diagrams on maps use of flow lines on maps of width proportional to quantities (people, goods, imports, exports) to show movement and transport geographically</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/people/francis-galton/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/people/francis-galton/</guid>
+      <description>![[Screenshot 2022-01-03 at 12.36.57 AM.png]]
+![[Screenshot 2022-01-03 at 12.35.13 AM.png]]</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/types/chernoff-faces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/types/chernoff-faces/</guid>
+      <description>Chernoff faces, invented by applied mathematician, statistician and physicist Herman Chernoffin 1973, display multivariate data in the shape of a human face. The individual parts, such as eyes, ears, mouth and nose represent values of the variables by their shape, size, placement and orientation. The idea behind using faces is that humans easily recognize faces and notice small changes without difficulty. Chernoff faces handle each variable differently. Because the features of the faces vary in perceived importance, the way in which variables are mapped to the features should be carefully chosen (e.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/types/dot-map/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/types/dot-map/</guid>
+      <description>Source: http://www.gitta.info/ThematicCart/en/html/TypogrDesign_learningObject8.html</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/types/isolines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/types/isolines/</guid>
+      <description>Isolines In map making and data visualization, isolines connect points of equal value over a geographic map or space.
+![[Screenshot 2022-01-02 at 10.57.54 AM.png]] Source: http://www.gitta.info/ThematicCart/en/html/TypogrDesign_learningObject7.html
+What this reminds me of ![[Infrared vision]] ![[Grayscale]] ![[Color banding]] ![[Facial recognition]] ![[997152A1-76F6-4E49-98FE-7C5F7F412D0F.jpeg]]</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/types/mosaic-plots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/types/mosaic-plots/</guid>
+      <description>Source: https://en.wikipedia.org/wiki/Mosaic_plot</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/types/star-plots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/types/star-plots/</guid>
+      <description>Source: https://www.researchgate.net/figure/A-star-plot-visualization-of-the-results-obtained-from-the-user-study-comparing-the-two_fig3_321894105</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/types/statistical-sculpture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/types/statistical-sculpture/</guid>
+      <description>Source: https://friendly.github.io/HistDataVis/ch08-flatland.html</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/types/stereograms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/types/stereograms/</guid>
+      <description>Source: https://friendly.github.io/HistDataVis/ch08-flatland.html</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/types/tree-representations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/types/tree-representations/</guid>
+      <description>TBD</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/types/types-of-graphs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/types/types-of-graphs/</guid>
+      <description>![[From data to Viz Find the graphic you need.png]]
+Source: https://www.data-to-viz.com</description>
+    </item>
+    
+  </channel>
+</rss>

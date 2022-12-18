@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.Site.Title on Ashley Notes</title>
+    <link>http://example.org/design/</link>
+    <description>Recent content in .Site.Title on Ashley Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/design/concepts/color-banding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/design/concepts/color-banding/</guid>
+      <description>Source: https://en.wikipedia.org/wiki/Colour_banding</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/design/concepts/grayscale/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/design/concepts/grayscale/</guid>
+      <description>![[2647588D-9FE1-42C9-8B76-22ED6329B1C7.webp]] Photo by Jocelyn Morales on Unsplash
+Depicts the amount of light in an area</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/design/concepts/principles-of-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/design/concepts/principles-of-design/</guid>
+      <description>Principles of Design Sets of agreed-upon rules which help govern the way design decisions are made, usually to achieve some purpose.
+Examples I know Interaction design  [[Calm Technology]]  </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/design/concepts/responsive-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/design/concepts/responsive-design/</guid>
+      <description>Responsive Design </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/design/concepts/service-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/design/concepts/service-design/</guid>
+      <description>Considers not just the website, product, or item created, but also the people, connections, and processes involved.
+Related to journey mapping.
+The journey ends when the customer moves on from the relationship.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/design/concepts/typeface-classifications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/design/concepts/typeface-classifications/</guid>
+      <description>Typeface classifications The difference between Latin typeface classification and other languages </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/design/principles/calm-technology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/design/principles/calm-technology/</guid>
+      <description>Calm technology A set of principles of interaction design that seeks to reduce user attention, focus, and other principles typically lauded and misused for addictive purposes. Calm technology is a direct response to the idea of &amp;ldquo;delight&amp;rdquo; having gone too far, and hopes to achieve an excellent user experience by creating a supportive environment, where the technology only interrupts or seeks attention as needed. It also hopes to solve the problem with the least technological interference possible.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/design/tools/adobe-creative-cloud/indesign/packaging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/design/tools/adobe-creative-cloud/indesign/packaging/</guid>
+      <description>Packaging In InDesign, packaging refers to the process of collecting all the assets related to a file, such as images and fonts, and combining them into one folder. It&amp;rsquo;s usually used for sending a file to another designer or to print, because assets usually aren&amp;rsquo;t embedded directly in InDesign files to help improve their performance.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/design/tools/interaction-design-tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/design/tools/interaction-design-tools/</guid>
+      <description>Interaction Design Tools Tools you could use to create interactions between humans and computer systems.
+Examples I know  [[Augmented Reality]] [[Internet of Things]] [[Virtual Reality]]  </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/design/types/interaction-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/design/types/interaction-design/</guid>
+      <description>Interaction Design </description>
+    </item>
+    
+  </channel>
+</rss>

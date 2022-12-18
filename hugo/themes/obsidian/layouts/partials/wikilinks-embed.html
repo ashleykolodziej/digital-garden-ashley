@@ -1,8 +1,5 @@
 {{/*
-	Need some regex to find embed syntax with the ![[syntax]]
-	From there, I could do readfile {{ os.ReadFile "README.md" }}
-	using the relative reference here
-	markdownify, and add to content
+	Searches for ![[]] syntax and embeds it.
 */}}
 
 {{ $processedContent := .Scratch.Get "processedContent" | markdownify }}
@@ -32,6 +29,9 @@
 		{{ $fileref := path.Join $base $fullfilename }}
 		{{ $embedContent := os.ReadFile $fileref | markdownify }}
 
+		{{/* Wrap in HTML for styling	 */}}
+		{{ $embedContent = printf "%s%s%s" `<div class="embed">` $embedContent `</div>` }}
+
 		{{/* Escape the filename because I created bad filenames */}}
 		{{ $escapedFilename := $filename | replaceRE `\?` `\?` }}
 		{{ $escapedFilename = $escapedFilename | replaceRE `\.` `\.` }}
@@ -43,9 +43,6 @@
 		{{ $wikilink :=  printf "%s%s%s" $firstBracket $escapedFilename $lastBracket }}
 
 		{{ $noteContent := $processedContent | replaceRE $wikilink $embedContent }}
-
-		{{/* Wrap in HTML for styling */}}
-		{{ $noteContent = printf "%s%s%s" `<div class="embed">` $noteContent `</div>` }}
 
 		{{ $processedContent = $noteContent }}
 	{{ end }}

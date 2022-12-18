@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.Site.Title on Ashley Notes</title>
+    <link>http://example.org/technologies/</link>
+    <description>Recent content in .Site.Title on Ashley Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/technologies/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/technologies/concepts/internet-of-things/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/technologies/concepts/internet-of-things/</guid>
+      <description>Internet of Things </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/technologies/types/artificial-intelligence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/technologies/types/artificial-intelligence/</guid>
+      <description>Artificial Intelligence </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/technologies/types/augmented-reality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/technologies/types/augmented-reality/</guid>
+      <description>Augmented Reality </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/technologies/types/facial-recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/technologies/types/facial-recognition/</guid>
+      <description>Source: https://www.eff.org/pages/face-recognition
+What this reminds me of [[Artificial Intelligence]]</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/technologies/types/infrared-vision/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/technologies/types/infrared-vision/</guid>
+      <description>A graphical representation of heat signatures in a space.
+Source: https://www.outdoortechnica.com/how-thermal-ir-imaging-cameras-work/</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/technologies/types/virtual-reality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/technologies/types/virtual-reality/</guid>
+      <description>Virtual Reality </description>
+    </item>
+    
+  </channel>
+</rss>

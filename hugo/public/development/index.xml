@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.Site.Title on Ashley Notes</title>
+    <link>http://example.org/development/</link>
+    <description>Recent content in .Site.Title on Ashley Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/development/tools/build-tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/development/tools/build-tools/</guid>
+      <description>Build Tools </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/development/tools/content-management-systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/development/tools/content-management-systems/</guid>
+      <description>Content Management Systems </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/development/tools/css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/development/tools/css/</guid>
+      <description>CSS </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/development/tools/html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/development/tools/html/</guid>
+      <description>HTML </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/development/tools/javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/development/tools/javascript/</guid>
+      <description>JavaScript </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/development/tools/version-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/development/tools/version-control/</guid>
+      <description>Version Control </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/development/tools/web-packaging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/development/tools/web-packaging/</guid>
+      <description>Web Packaging A controversial technology introduced by various companies such as Facebook (Instant Articles) and Google (AMP). The technology allows for bundling of web assets so they can be shared, cached, etc. easily, which in the examples above, allows for faster loading of assets by reducing the amount of unnecessary HTML, CSS, and JavaScript the browser needs to load. In theory, you could also use this to download and share an offline copy of a website, without having any real proof of where it came from.</description>
+    </item>
+    
+  </channel>
+</rss>

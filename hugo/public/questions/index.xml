@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.Site.Title on Ashley Notes</title>
+    <link>http://example.org/questions/</link>
+    <description>Recent content in .Site.Title on Ashley Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/questions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/questions/does-information-design-affect-perceived-trust/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/questions/does-information-design-affect-perceived-trust/</guid>
+      <description>Does information design affect perceived trust? </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/questions/how-do-you-continue-learning-beyond-public-school/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/questions/how-do-you-continue-learning-beyond-public-school/</guid>
+      <description>Title  Internet by itself doesn&amp;rsquo;t work Need curriculum and feedback Need information at the right time, not shoveled into public school What are existing sources of community knowledge? Why do they exist?  </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/questions/what-is-the-purpose-of-libraries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/questions/what-is-the-purpose-of-libraries/</guid>
+      <description>What is the purpose of libraries?  To provide reliable information. What does reliable information look like in the internet age?   </description>
+    </item>
+    
+  </channel>
+</rss>

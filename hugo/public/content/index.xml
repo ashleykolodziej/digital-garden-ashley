@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.Site.Title on Ashley Notes</title>
+    <link>http://example.org/content/</link>
+    <description>Recent content in .Site.Title on Ashley Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/content/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/content/concepts/slow-media/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/content/concepts/slow-media/</guid>
+      <description>Slow Media A movement to slow the pace of information in modern times. With the advent of social media and the 24 hour news cycle, content is served to the user at increasingly rapid paces. This puts pressure both on information-givers and information-takers to be on top of a rapid firehose of information, often unfiltered.
+Tools that I think can help  RSS feeds, to help filter what types of media show in our feeds Feedly, which shows a limited number of articles as &amp;ldquo;Today&amp;rsquo;s&amp;rdquo; articles Social media which does not encourage likes/shares/etc - for example, blogging  What is missing?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.Site.Title on Ashley Notes</title>
+    <link>http://example.org/management/</link>
+    <description>Recent content in .Site.Title on Ashley Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/management/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/management/leadership-qualities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/management/leadership-qualities/</guid>
+      <description>   Leadership Quality Summary Pros Cons     Name Summary Pro Con    </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/management/management-styles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/management/management-styles/</guid>
+      <description>   Management Style Summary Pros Cons     Autocratic Summary Pro Con   Authoritative Summary Pro Con   Coaching Summary Pro Con   Coercive Summary Pro Con   Democratic Summary Pro Con   Laissez-Faire Summary Pro Con   Persuasive Summary Pro Con   Transformational Summary Pro Con   Visionary Summary Pro Con    </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/management/team-charter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/management/team-charter/</guid>
+      <description>A written shared definition of purpose, which helps guide and motivate a team.
+Charters can come in all shapes and sizes, from brief mission statements to lengthier documents that detail how a team operates. Start brief and expand as needed.
+As a start, consider:
+ We’re not here just to make it pretty or easy to use. Through empathy, we ensure meaning and utility. With craft, we elicit understanding and desire.</description>
+    </item>
+    
+  </channel>
+</rss>

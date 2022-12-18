@@ -1,22 +1,978 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ashley Notes</title>
+    <title>.Site.Title on Ashley Notes</title>
     <link>http://example.org/</link>
-    <description>Recent content on Ashley Notes</description>
+    <description>Recent content in .Site.Title on Ashley Notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
-      <title></title>
-      <link>http://example.org/pages/</link>
+      <title>.Site.Title</title>
+      <link>http://example.org/business/business-strategy-strategic-goals-and-measures/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/pages/</guid>
-      <description>What is MindStone? MindStone is a free open-source alternative solution to Obsidian Publish
-Here how it look like once published:
-This website include a published version of default Obsidian Help vault, [[Start here]]
-MindStone features:
-✅ Drop-in support for (default) Obsidian Vault ✅ [[Wiki Link]] built-in support ✅ Folder-base navigation side bar ✅ Backlink support out of the box ✅ Interactive Graph view ✅ Easy to deploy to Netlify, Vercel&amp;hellip; Getting started Run on your local machine Steps to run it on your local machine:</description>
+      <guid>http://example.org/business/business-strategy-strategic-goals-and-measures/</guid>
+      <description>![[8742581A-9F3C-4D3A-8EF9-1B39F315B89C.png]] ![[04C30ABB-6C01-4797-8893-740178C41C96.jpeg]]</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/business/kpis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/business/kpis/</guid>
+      <description>Key performance indicators. Helps measure your current success against past data. A KPI might be sales.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/business/managing-client-feedback/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/business/managing-client-feedback/</guid>
+      <description>Managing Client Feedback  Provide clear &amp;ldquo;stages&amp;rdquo; of feedback Break it down to high level, does it meet the goals, finalizing/detail  Source: https://www.reddit.com/r/freelance/comments/rmieym/do_you_think_its_ever_right_to_discipline_your/</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/business/raising-rates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/business/raising-rates/</guid>
+      <description>Raising rates  Consider adjusting rates annually with inflation  Source: https://reddit.com/r/freelance/comments/rlruo3/psa_negotiate_new_rates_for_the_new_year/</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/content/concepts/slow-media/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/content/concepts/slow-media/</guid>
+      <description>Slow Media A movement to slow the pace of information in modern times. With the advent of social media and the 24 hour news cycle, content is served to the user at increasingly rapid paces. This puts pressure both on information-givers and information-takers to be on top of a rapid firehose of information, often unfiltered.
+Tools that I think can help  RSS feeds, to help filter what types of media show in our feeds Feedly, which shows a limited number of articles as &amp;ldquo;Today&amp;rsquo;s&amp;rdquo; articles Social media which does not encourage likes/shares/etc - for example, blogging  What is missing?</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/concepts/clustering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/concepts/clustering/</guid>
+      <description>Source: https://towardsdatascience.com/cluster-analysis-create-visualize-and-interpret-customer-segments-474e55d00ebb</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/concepts/cognition-and-processing-of-data-by-graphic-type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/concepts/cognition-and-processing-of-data-by-graphic-type/</guid>
+      <description>   Type Process used Natural strengths Inherent weaknesses     Graph Visual Patterns and relationships, time Precise detail   Table Verbal Sequential processing, one-to-one comparison, exact values High level patterns, &amp;ldquo;big picture&amp;rdquo; relationships, changes over time    </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/concepts/high-dimensional-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/concepts/high-dimensional-data/</guid>
+      <description>Where the number of features is greater than the number of entries/observations.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/people/charles-joseph-minard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/people/charles-joseph-minard/</guid>
+      <description>Charles Joseph Minard  [[Charles Joseph Minard]] (early innovations towards [[mosaic plots]])  ![[Screenshot 2022-01-02 at 8.05.38 PM.png]]    divided circle diagrams on maps use of flow lines on maps of width proportional to quantities (people, goods, imports, exports) to show movement and transport geographically</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/people/francis-galton/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/people/francis-galton/</guid>
+      <description>![[Screenshot 2022-01-03 at 12.36.57 AM.png]]
+![[Screenshot 2022-01-03 at 12.35.13 AM.png]]</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/types/chernoff-faces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/types/chernoff-faces/</guid>
+      <description>Chernoff faces, invented by applied mathematician, statistician and physicist Herman Chernoffin 1973, display multivariate data in the shape of a human face. The individual parts, such as eyes, ears, mouth and nose represent values of the variables by their shape, size, placement and orientation. The idea behind using faces is that humans easily recognize faces and notice small changes without difficulty. Chernoff faces handle each variable differently. Because the features of the faces vary in perceived importance, the way in which variables are mapped to the features should be carefully chosen (e.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/types/dot-map/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/types/dot-map/</guid>
+      <description>Source: http://www.gitta.info/ThematicCart/en/html/TypogrDesign_learningObject8.html</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/types/isolines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/types/isolines/</guid>
+      <description>Isolines In map making and data visualization, isolines connect points of equal value over a geographic map or space.
+![[Screenshot 2022-01-02 at 10.57.54 AM.png]] Source: http://www.gitta.info/ThematicCart/en/html/TypogrDesign_learningObject7.html
+What this reminds me of ![[Infrared vision]] ![[Grayscale]] ![[Color banding]] ![[Facial recognition]] ![[997152A1-76F6-4E49-98FE-7C5F7F412D0F.jpeg]]</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/types/mosaic-plots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/types/mosaic-plots/</guid>
+      <description>Source: https://en.wikipedia.org/wiki/Mosaic_plot</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/types/star-plots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/types/star-plots/</guid>
+      <description>Source: https://www.researchgate.net/figure/A-star-plot-visualization-of-the-results-obtained-from-the-user-study-comparing-the-two_fig3_321894105</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/types/statistical-sculpture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/types/statistical-sculpture/</guid>
+      <description>Source: https://friendly.github.io/HistDataVis/ch08-flatland.html</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/types/stereograms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/types/stereograms/</guid>
+      <description>Source: https://friendly.github.io/HistDataVis/ch08-flatland.html</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/types/tree-representations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/types/tree-representations/</guid>
+      <description>TBD</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/data-visualization/types/types-of-graphs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/data-visualization/types/types-of-graphs/</guid>
+      <description>![[From data to Viz Find the graphic you need.png]]
+Source: https://www.data-to-viz.com</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/design/concepts/color-banding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/design/concepts/color-banding/</guid>
+      <description>Source: https://en.wikipedia.org/wiki/Colour_banding</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/design/concepts/grayscale/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/design/concepts/grayscale/</guid>
+      <description>![[2647588D-9FE1-42C9-8B76-22ED6329B1C7.webp]] Photo by Jocelyn Morales on Unsplash
+Depicts the amount of light in an area</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/design/concepts/principles-of-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/design/concepts/principles-of-design/</guid>
+      <description>Principles of Design Sets of agreed-upon rules which help govern the way design decisions are made, usually to achieve some purpose.
+Examples I know Interaction design  [[Calm Technology]]  </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/design/concepts/responsive-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/design/concepts/responsive-design/</guid>
+      <description>Responsive Design </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/design/concepts/service-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/design/concepts/service-design/</guid>
+      <description>Considers not just the website, product, or item created, but also the people, connections, and processes involved.
+Related to journey mapping.
+The journey ends when the customer moves on from the relationship.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/design/concepts/typeface-classifications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/design/concepts/typeface-classifications/</guid>
+      <description>Typeface classifications The difference between Latin typeface classification and other languages </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/design/principles/calm-technology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/design/principles/calm-technology/</guid>
+      <description>Calm technology A set of principles of interaction design that seeks to reduce user attention, focus, and other principles typically lauded and misused for addictive purposes. Calm technology is a direct response to the idea of &amp;ldquo;delight&amp;rdquo; having gone too far, and hopes to achieve an excellent user experience by creating a supportive environment, where the technology only interrupts or seeks attention as needed. It also hopes to solve the problem with the least technological interference possible.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/design/tools/adobe-creative-cloud/indesign/packaging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/design/tools/adobe-creative-cloud/indesign/packaging/</guid>
+      <description>Packaging In InDesign, packaging refers to the process of collecting all the assets related to a file, such as images and fonts, and combining them into one folder. It&amp;rsquo;s usually used for sending a file to another designer or to print, because assets usually aren&amp;rsquo;t embedded directly in InDesign files to help improve their performance.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/design/tools/interaction-design-tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/design/tools/interaction-design-tools/</guid>
+      <description>Interaction Design Tools Tools you could use to create interactions between humans and computer systems.
+Examples I know  [[Augmented Reality]] [[Internet of Things]] [[Virtual Reality]]  </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/design/types/interaction-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/design/types/interaction-design/</guid>
+      <description>Interaction Design </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/development/tools/build-tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/development/tools/build-tools/</guid>
+      <description>Build Tools </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/development/tools/content-management-systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/development/tools/content-management-systems/</guid>
+      <description>Content Management Systems </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/development/tools/css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/development/tools/css/</guid>
+      <description>CSS </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/development/tools/html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/development/tools/html/</guid>
+      <description>HTML </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/development/tools/javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/development/tools/javascript/</guid>
+      <description>JavaScript </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/development/tools/version-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/development/tools/version-control/</guid>
+      <description>Version Control </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/development/tools/web-packaging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/development/tools/web-packaging/</guid>
+      <description>Web Packaging A controversial technology introduced by various companies such as Facebook (Instant Articles) and Google (AMP). The technology allows for bundling of web assets so they can be shared, cached, etc. easily, which in the examples above, allows for faster loading of assets by reducing the amount of unnecessary HTML, CSS, and JavaScript the browser needs to load. In theory, you could also use this to download and share an offline copy of a website, without having any real proof of where it came from.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/discussion-rubric/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/discussion-rubric/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/hugo-tests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/hugo-tests/</guid>
+      <description>Hugo theme tests for Obsidian syntax Wikilinks  [[Slow Media]] [[Intention]]  </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/management/leadership-qualities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/management/leadership-qualities/</guid>
+      <description>   Leadership Quality Summary Pros Cons     Name Summary Pro Con    </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/management/management-styles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/management/management-styles/</guid>
+      <description>   Management Style Summary Pros Cons     Autocratic Summary Pro Con   Authoritative Summary Pro Con   Coaching Summary Pro Con   Coercive Summary Pro Con   Democratic Summary Pro Con   Laissez-Faire Summary Pro Con   Persuasive Summary Pro Con   Transformational Summary Pro Con   Visionary Summary Pro Con    </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/management/team-charter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/management/team-charter/</guid>
+      <description>A written shared definition of purpose, which helps guide and motivate a team.
+Charters can come in all shapes and sizes, from brief mission statements to lengthier documents that detail how a team operates. Start brief and expand as needed.
+As a start, consider:
+ We’re not here just to make it pretty or easy to use. Through empathy, we ensure meaning and utility. With craft, we elicit understanding and desire.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/morality/images/impact-of-local-meat-vs-transported-vegetables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/morality/images/impact-of-local-meat-vs-transported-vegetables/</guid>
+      <description>![[Environmental-impact-of-food-by-life-cycle-stage.png]]
+Source: https://ourworldindata.org/food-choice-vs-eating-local</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/morality/intention/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/morality/intention/</guid>
+      <description>Intention Intention does not negate harm. Related to ![[The purpose of systems]]</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/morality/the-purpose-of-systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/morality/the-purpose-of-systems/</guid>
+      <description>The purpose of a system is what it does From Wikipedia: According to the cybernetician, the purpose of a system is what it does. This is a basic dictum. It stands for bald fact, which makes a better starting point in seeking understanding than the familiar attributions of good intention, prejudices about expectations, moral judgment, or sheer ignorance of circumstances.
+https://en.wikipedia.org/wiki/The_purpose_of_a_system_is_what_it_does
+The logic here is that when we measure a system&amp;rsquo;s effectiveness, we look at its output - what it does - as the ultimate measure of success in its design.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/morality/veganism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/morality/veganism/</guid>
+      <description>Veganism [[Morality/The purpose of systems]]
+What is most likely to help someone stick with veganism? https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7231009/
+https://ourworldindata.org/food-choice-vs-eating-local
+[[Impact of local meat vs transported vegetables]]</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/morality/wheel-of-power/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/morality/wheel-of-power/</guid>
+      <description>Wheel of Power An illustration by Sylvia Duckworth to help us visualize different ways that marginalization and power can come into play in one&amp;rsquo;s life, based on inherent characteristics.
+Source: https://www.thisishowyoucan.com/post/__wheel_of_power_and_privilege
+![[wheel-of-power.jpg]]</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/learning-objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/learning-objectives/</guid>
+      <description>Learning Objectives  Understand the human visual and auditory systems. Appraise the capacities and limitations of human vision and hearing. Evaluate accessibility of digital interfaces.  </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/readings/color-blindness-how-to-design-an-accessible-user-interface/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/readings/color-blindness-how-to-design-an-accessible-user-interface/</guid>
+      <description>Color blindness - how to design an accessible user interface Link: https://uxdesign.cc/color-blindness-in-user-interfaces-66c27331b858
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 4 - Visual and Auditory Sensation/Learning Objectives]]
+Notes </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/readings/dimensions-of-color-demo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/readings/dimensions-of-color-demo/</guid>
+      <description>Dimensions of Color Demo Link: https://isle.hanover.edu/Ch06Color/Ch06Dimensions.html
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 4 - Visual and Auditory Sensation/Learning Objectives]]
+Notes </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/readings/google-material-design-about-sound/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/readings/google-material-design-about-sound/</guid>
+      <description>Google Material Design - About Sound Link: https://material.io/design/sound/about-sound.html#types-of-sound
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 4 - Visual and Auditory Sensation/Learning Objectives]]
+Notes </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/readings/sensation-introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/readings/sensation-introduction/</guid>
+      <description>Sensation - Introduction ![[Week3-Peditto-1.pdf]]
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 4 - Visual and Auditory Sensation/Learning Objectives]]
+Notes </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/readings/sensation-auditory-and-visual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/readings/sensation-auditory-and-visual/</guid>
+      <description>Sensation – Auditory and Visual ![[Week3-Peditto-2.pdf]]
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 4 - Visual and Auditory Sensation/Learning Objectives]]
+Notes </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/readings/signal-detection-attention/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/readings/signal-detection-attention/</guid>
+      <description>Signal Detection &amp;amp; Attention ![[Week4 Lecture-Peditto-SDAtt.pdf]]
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 4 - Visual and Auditory Sensation/Learning Objectives]]
+Notes </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/readings/visual-search-demo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/readings/visual-search-demo/</guid>
+      <description>Visual Search demo Link: https://www.psytoolkit.org/lessons/experiment_visualsearch.html
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 4 - Visual and Auditory Sensation/Learning Objectives]]
+Notes </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/summary/</guid>
+      <description>Visual and Auditory Sensation Dates: Feb 2-9
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 4 - Visual and Auditory Sensation/Learning Objectives]]
+Connections I immediately think of    Questions I should consider while reading    My takeaways    Readings  Sensation Intro (10 min.)File PDF document [DEMO] Dimensions of Color (10 min.)URL Auditory &amp;amp; Visual Sensation (15 min.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/to-do/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/to-do/assignment/</guid>
+      <description>Assignment: Title Paste description here.
+Draft notes Link to assignment:</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/to-do/this-weeks-replies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/to-do/this-weeks-replies/</guid>
+      <description>Title Paste requirements here.
+ Post reply 1 Post reply 2  Draft In your replies, test 2 tools (from the categories you were NOT assigned) analyzed by your classmates on your chosen UI, and compare your experience to those of the original poster
+Hey Whitney and Amara! Thank you for sharing your experiences - I would have expected more from such major e-commerce sites. It&amp;rsquo;s amazing how difficult browsing the web becomes with a screen reader.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/to-do/this-weeks-topic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-4-visual-and-auditory-sensation/to-do/this-weeks-topic/</guid>
+      <description>Evaluating accessibility tools Context: The goal of this assignment is to create a common toolkit for evaluating usability and accessibility of interfaces. In digital interfaces, consideration for sensory limitations is particularly important.
+Initial Post:
+You have been assigned a tool that falls into one of 3 categories:
+ Simulator - helps understand how a person with disability experiences the world Assistive technology - used by people with disabilities to access information (e.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-6-ui-design-part-i/learning-objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-6-ui-design-part-i/learning-objectives/</guid>
+      <description>Learning Objectives  Describe Fitts’ Law and Hick’s Law as they relate to UI design. Understand the utility of design systems, interface guidelines, and heuristics in UI design.  </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-6-ui-design-part-i/summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-6-ui-design-part-i/summary/</guid>
+      <description>UI Design - Part I Dates: Feb 16-23
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 6 - UI Design - Part I/Learning Objectives]]
+Connections I immediately think of    Questions I should consider while reading    My takeaways    Readings  Slides - Information Displays (30min)File [Video] Mouse Pointers and Fitts&amp;rsquo; Law (10 min)URL [[Video] Hick&amp;rsquo;s Law (10 min)URL](https://moodle2.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-6-ui-design-part-i/to-do/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-6-ui-design-part-i/to-do/assignment/</guid>
+      <description>Assignment 2 - Expert Review (Heuristic Evaluation) For this assignment, students will conduct a heuristic evaluation of a primarily visual UI design of their choice. The UI should include a transactional task component (e.g. ecommerce, banking, social media, or web app). At minimum, the presentation should include an analysis of the home page and a multi-step task or interactive process (e.g. registration, checkout, or social media posting). The target audience for this presentation is a team of design stakeholders, including senior management.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-6-ui-design-part-i/to-do/this-weeks-replies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-6-ui-design-part-i/to-do/this-weeks-replies/</guid>
+      <description>Title Paste requirements here.
+ Post reply 1 Post reply 2  Draft Add draft notes here.
+Checklist ![[Discussion Rubric]]</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-6-ui-design-part-i/to-do/this-weeks-topic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-6-ui-design-part-i/to-do/this-weeks-topic/</guid>
+      <description>Fitt&amp;rsquo;s Law This week, you will perform a cognitive task and interpret your results.
+Fitts&amp;rsquo; Law
+To begin: Read the instructions below before clicking on the hyperlink. You will see a blank screen with a series of default values. Don’t edit anything, just click start after reading the instructions below.
+  Perform the Fitts’ Reciprocal Clicking Task: Your task is to click the alternating blue bar as fast and as accurately as possible.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/learning-objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/learning-objectives/</guid>
+      <description>Learning Objectives  Describe key principles of dynamic interface design. Understand the additional challenge of designing for mobile devices and multimodal interfaces.  </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/readings/design-for-fingers-touch-and-people-part-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/readings/design-for-fingers-touch-and-people-part-3/</guid>
+      <description>Design for Fingers, Touch and People, Part 3 Link: https://www.uxmatters.com/mt/archives/2017/07/design-for-fingers-touch-and-people-part-3.php
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 7 - UI Design - Part II/Learning Objectives]]
+Notes </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/readings/design-for-fingers-touch-and-people-part-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/readings/design-for-fingers-touch-and-people-part-1/</guid>
+      <description>Design for Fingers, Touch, and People, Part 1 Link: https://www.uxmatters.com/mt/archives/2017/03/design-for-fingers-touch-and-people-part-1.php
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 7 - UI Design - Part II/Learning Objectives]]
+Notes </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/readings/design-for-fingers-touch-and-people-part-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/readings/design-for-fingers-touch-and-people-part-2/</guid>
+      <description>Design for Fingers, Touch, and People, Part 2 Link: https://www.uxmatters.com/mt/archives/2017/05/design-for-fingers-touch-and-people-part-2.php
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 7 - UI Design - Part II/Learning Objectives]]
+Notes </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/readings/dynamic-displays/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/readings/dynamic-displays/</guid>
+      <description>Dynamic displays ![[Week7.pdf]]
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 7 - UI Design - Part II/Learning Objectives]]
+Notes </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/readings/metaphors-idioms-affordances/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/readings/metaphors-idioms-affordances/</guid>
+      <description>Metaphors, Idioms, &amp;amp; Affordances ![[About_Face_The_Essentials_of_Interaction_Design_&amp;mdash;-_(Part_II_Designing_Behavior_and_Form).pdf]]
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 7 - UI Design - Part II/Learning Objectives]]
+Notes </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/readings/natural-user-interfaces-are-not-natural/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/readings/natural-user-interfaces-are-not-natural/</guid>
+      <description>Natural User Interfaces Are Not Natural ![[Norman - Natural Interfaces.pdf]]
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 7 - UI Design - Part II/Learning Objectives]]
+Notes </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/summary/</guid>
+      <description>UI Design - Part II Dates: Feb 23-Mar 2
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 7 - UI Design - Part II/Learning Objectives]]
+Connections I immediately think of    Questions I should consider while reading    My takeaways    Readings  [[Design for Fingers, Touch, and People, Part 2]] [[Design for Fingers, Touch and People, Part 3]] [[Design for Fingers, Touch, and People, Part 1]] [[Natural User Interfaces Are Not Natural]] [[Metaphors, Idioms, &amp;amp; Affordances]] [[Dynamic displays]] https://www.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/to-do/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/to-do/assignment/</guid>
+      <description>Assignment: Title Paste description here.
+Draft notes Link to assignment:</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/to-do/this-weeks-replies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/to-do/this-weeks-replies/</guid>
+      <description>Title Paste requirements here.
+ Post reply 1 Post reply 2  Draft Add draft notes here.
+Checklist ![[Discussion Rubric]]</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/to-do/this-weeks-topic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-7-ui-design-part-ii/to-do/this-weeks-topic/</guid>
+      <description>Title Paste requirements here.
+Draft Uxmatters touch pt 1  Discontinuities in the lines are sensing-precision failures. (The small stylus tip is likely the cause of those, so that issue probably wouldn’t occur with a finger.) The swoops and gaps at the edges are artifacts of the screen’s construction and interference. The waves occur where the calculations between grid lines are a bit off. Therefore, unless you’re creating a drawing tool or a game, pretend, for now, that touchscreens don’t detect pressure.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/learning-objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/learning-objectives/</guid>
+      <description>Learning Objectives  Compare intrinsic and extrinsic models of motivation. Describe design strategies for user motivation. Explain the role of social belonging, and how it drives engagement.  </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/readings/designing-for-belonging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/readings/designing-for-belonging/</guid>
+      <description>Reading 4 Link: https://docs.google.com/presentation/d/1cAoAdkTpzSTefvTyf_vpiv6HZeM0WS1eY-HZmdXV4F8/edit#slide=id.g58fdfee9b1_0_294
+![[Design for Belonging.pdf]]
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 9 - Motivation and Social Belonging/Learning Objectives]]
+Notes </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/readings/designing-for-motivationengagement-and-wellbeing...-60-min./</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/readings/designing-for-motivationengagement-and-wellbeing...-60-min./</guid>
+      <description>Designing for motivation,engagement and wellbeing&amp;hellip; (60 min.) ![[Peters et al. (2018) - Motivation, Engagement.pdf]]
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 9 - Motivation and Social Belonging/Learning Objectives]]
+Notes </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/readings/game-set-match-getting-gamification-right/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/readings/game-set-match-getting-gamification-right/</guid>
+      <description>Game, Set, Match: Getting Gamification Right Link: https://thedecisionlab.com/insights/consumer-insights/game-set-match-getting-gamification-right
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 9 - Motivation and Social Belonging/Learning Objectives]]
+Notes </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/readings/gamification-in-theory-and-action/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/readings/gamification-in-theory-and-action/</guid>
+      <description>Gamification in theory and action ![[Seaborn (2014) - Gamification.pdf]]
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 9 - Motivation and Social Belonging/Learning Objectives]]
+Notes </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/readings/intrinsic-and-extrinsic-motivations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/readings/intrinsic-and-extrinsic-motivations/</guid>
+      <description>Intrinsic and extrinsic motivations ![[Ryan &amp;amp; Deci (2000) - Intrinsic_Extrinsic.pdf]]
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 9 - Motivation and Social Belonging/Learning Objectives]]
+Notes </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/readings/summary-slides-motivation-social-belonging-20-min./</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/readings/summary-slides-motivation-social-belonging-20-min./</guid>
+      <description>Summary Slides - Motivation &amp;amp; Social Belonging (20 min.) ![[Week9.pdf]]
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 9 - Motivation and Social Belonging/Learning Objectives]]
+Notes </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/readings/the-three-environments-that-create-every-employee-experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/readings/the-three-environments-that-create-every-employee-experience/</guid>
+      <description>The Three Environments That Create Every Employee Experience Link: LINK HERE
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 9 - Motivation and Social Belonging/Learning Objectives]]
+Notes Jacob Morgan01:20am EST
+I define &amp;ldquo;employee experience&amp;rdquo; as an organization creating a place where people want to show up instead of assuming that people need to show up. This shift from &amp;ldquo;need&amp;rdquo; to &amp;ldquo;want&amp;rdquo; is the fundamental change that organizations around the world are starting to experience.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/summary/</guid>
+      <description>Week Title Dates: Dates here
+![[MS in User-Centered Design/RUCD 120 - Cognitive and Social Psychology of User-Centered Design - 💾/Week 9 - Motivation and Social Belonging/Learning Objectives]]
+Connections I immediately think of    Questions I should consider while reading    My takeaways    Readings  [[The Three Environments That Create Every Employee Experience]] [[Designing for motivation,engagement and wellbeing&amp;hellip; (60 min.)]] [[Intrinsic and extrinsic motivations]] [[Designing for Belonging]] [[Summary Slides - Motivation &amp;amp; Social Belonging (20 min.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/to-do/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/to-do/assignment/</guid>
+      <description>Assignment: Title Paste description here.
+Draft notes Link to assignment:</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/to-do/this-weeks-replies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/to-do/this-weeks-replies/</guid>
+      <description>Title Paste requirements here.
+ Post reply 1 Post reply 2  Draft Add draft notes here.
+Checklist ![[Discussion Rubric]]</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/to-do/this-weeks-topic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ms-in-user-centered-design/rucd-120-cognitive-and-social-psychology-of-user-centered-design-/week-9-motivation-and-social-belonging/to-do/this-weeks-topic/</guid>
+      <description>Title  How can you design a workplace for social belonging? What can you do to design effective and engaging meetings? How is the challenge of designing for engagement different for offices vs. remote work?  Where did the collaboration tool/app succeed? What kinds of improvement suggestions would you suggest for the app(s) you tried with your partner(s)?
+Draft How can you design a workplace for social belonging? One way to create a sense of belonging and genuine connectedness is to focus on directed communication - acts which engage two people via the same subject - over passive observation and connection (Peters et al.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/questions/does-information-design-affect-perceived-trust/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/questions/does-information-design-affect-perceived-trust/</guid>
+      <description>Does information design affect perceived trust? </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/questions/how-do-you-continue-learning-beyond-public-school/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/questions/how-do-you-continue-learning-beyond-public-school/</guid>
+      <description>Title  Internet by itself doesn&amp;rsquo;t work Need curriculum and feedback Need information at the right time, not shoveled into public school What are existing sources of community knowledge? Why do they exist?  </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/questions/what-is-the-purpose-of-libraries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/questions/what-is-the-purpose-of-libraries/</guid>
+      <description>What is the purpose of libraries?  To provide reliable information. What does reliable information look like in the internet age?   </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/technologies/concepts/internet-of-things/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/technologies/concepts/internet-of-things/</guid>
+      <description>Internet of Things </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/technologies/types/artificial-intelligence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/technologies/types/artificial-intelligence/</guid>
+      <description>Artificial Intelligence </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/technologies/types/augmented-reality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/technologies/types/augmented-reality/</guid>
+      <description>Augmented Reality </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/technologies/types/facial-recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/technologies/types/facial-recognition/</guid>
+      <description>Source: https://www.eff.org/pages/face-recognition
+What this reminds me of [[Artificial Intelligence]]</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/technologies/types/infrared-vision/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/technologies/types/infrared-vision/</guid>
+      <description>A graphical representation of heat signatures in a space.
+Source: https://www.outdoortechnica.com/how-thermal-ir-imaging-cameras-work/</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/technologies/types/virtual-reality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/technologies/types/virtual-reality/</guid>
+      <description>Virtual Reality </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/user-research/tools/mturk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/user-research/tools/mturk/</guid>
+      <description>Amazon Mechanical Turk </description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/video-games/chain-rxn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/video-games/chain-rxn/</guid>
+      <description>I miss this game. Does it exist elsewhere?</description>
     </item>
     
   </channel>

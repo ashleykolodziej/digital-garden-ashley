@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.Site.Title on Ashley Notes</title>
+    <link>http://example.org/morality/</link>
+    <description>Recent content in .Site.Title on Ashley Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/morality/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/morality/images/impact-of-local-meat-vs-transported-vegetables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/morality/images/impact-of-local-meat-vs-transported-vegetables/</guid>
+      <description>![[Environmental-impact-of-food-by-life-cycle-stage.png]]
+Source: https://ourworldindata.org/food-choice-vs-eating-local</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/morality/intention/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/morality/intention/</guid>
+      <description>Intention Intention does not negate harm. Related to ![[The purpose of systems]]</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/morality/the-purpose-of-systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/morality/the-purpose-of-systems/</guid>
+      <description>The purpose of a system is what it does From Wikipedia: According to the cybernetician, the purpose of a system is what it does. This is a basic dictum. It stands for bald fact, which makes a better starting point in seeking understanding than the familiar attributions of good intention, prejudices about expectations, moral judgment, or sheer ignorance of circumstances.
+https://en.wikipedia.org/wiki/The_purpose_of_a_system_is_what_it_does
+The logic here is that when we measure a system&amp;rsquo;s effectiveness, we look at its output - what it does - as the ultimate measure of success in its design.</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/morality/veganism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/morality/veganism/</guid>
+      <description>Veganism [[Morality/The purpose of systems]]
+What is most likely to help someone stick with veganism? https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7231009/
+https://ourworldindata.org/food-choice-vs-eating-local
+[[Impact of local meat vs transported vegetables]]</description>
+    </item>
+    
+    <item>
+      <title>.Site.Title</title>
+      <link>http://example.org/morality/wheel-of-power/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/morality/wheel-of-power/</guid>
+      <description>Wheel of Power An illustration by Sylvia Duckworth to help us visualize different ways that marginalization and power can come into play in one&amp;rsquo;s life, based on inherent characteristics.
+Source: https://www.thisishowyoucan.com/post/__wheel_of_power_and_privilege
+![[wheel-of-power.jpg]]</description>
+    </item>
+    
+  </channel>
+</rss>
