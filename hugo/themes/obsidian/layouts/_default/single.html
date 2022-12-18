@@ -19,30 +19,44 @@
 
 {{ range $wikilinks }}
 	{{/* Get the filename */}}
-	{{ $filename := . | replaceRE $wikiregex "$1" }}
-	{{ print $filename }}
+	{{ $filename := trim . "[]" }}
+	{{ $extension := path.Ext $filename }}
+	{{print "test" }}
+	{{print . }}
+	{{print "test" }}
+	{{ print "<br/>" | safeHTML }}
+	{{ $filename = htmlUnescape $filename }}
 
-	{{/* Find the relative reference using the filename */}}
-	{{ $rel := relref ($scratch.Get "currentPage") $filename }}
+	{{/* Hugo can't find files with dots in them without an extension. */}}
+	{{ if eq $extension "" }}
+		{{ $filename = printf "%s%s" $filename ".md" }}
+		{{ print $filename }}
+		{{ print "<br/>" | safeHTML }}
 
-	{{/* Save a copy of the wikilink for later replacement */}}
-	{{ $escapedFilename := $filename | replaceRE `\?` `\?` }}
-	{{ $wikilink :=  printf "%s%s%s" $firstBracket $escapedFilename $lastBracket }}
-	{{ print $wikilink }}
+		{{/* Find the relative reference using the filename */}}
+		{{ $rel := relref ($scratch.Get "currentPage") $filename }}
+		{{/* $rel := $filename */}}
 
-	{{/* Create the link HTML */}}
-	{{ $link := printf "%s%s%s%s%s" "<a href=\"" $rel "\">" $filename "</a>" }}
-	{{ print $link | safeHTML }}
-	{{ print "<br/>" | safeHTML }}
-	{{ print "<br/>" | safeHTML }}
-	{{ print . | safeHTML }}
-	{{ print "<br/>" | safeHTML }}
-	{{ print "<br/>" | safeHTML }}
-	{{ $noteContent := $content | replaceRE $wikilink $link }}
-	{{ $noteContent | print }}
-	{{ print "<br/>" | safeHTML }}
-	{{ print "<br/>" | safeHTML }}
-	{{ $content = $noteContent }}
+		{{/* Escape the filename because I created bad filenames */}}
+		{{ $escapedFilename := $filename | replaceRE `\?` `\?` }}
+		{{ $escapedFilename = $escapedFilename | replaceRE `\.` `\.` }}
+		{{ $escapedFilename = $escapedFilename | replaceRE `\(` `\(` }}
+		{{ $escapedFilename = $escapedFilename | replaceRE `\)` `\)` }}
+
+		{{/* Save a copy of the wikilink regex for later replacement */}}
+		{{ $wikilink :=  printf "%s%s%s" $firstBracket $escapedFilename $lastBracket }}
+		{{ print $wikilink }}
+
+		{{/* Create the link HTML */}}
+		{{ $link := printf "%s%s%s%s%s" "<a href=\"" $rel "\">" $filename "</a>" }}
+		{{ print $link | safeHTML }}
+		{{ print "<br/>" | safeHTML }}
+		{{ print "<br/>" | safeHTML }}
+		{{ $noteContent := $content | replaceRE $wikilink $link }}
+		{{ print "<br/>" | safeHTML }}
+		{{ print "<br/>" | safeHTML }}
+		{{ $content = $noteContent }}
+	{{ end }}
 {{ end }}
 
 {{ $content | safeHTML }}
