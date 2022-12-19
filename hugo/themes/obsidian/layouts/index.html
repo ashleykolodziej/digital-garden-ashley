@@ -2,18 +2,27 @@
 <h2>Pages</h2>
 
 {{ range .Site.Pages.GroupBy "Section" }}
-	<h3>{{ .Key | humanize | title }}</h3>
+	{{ $sectionKey := .Key | humanize | title }}
+	{{ $section := $sectionKey }}
+	{{ $directory := "" }}
+	{{ $filetitle := "" }}
     <ul>
     	{{ range .Pages }}
-		<li>
-	        <a href="{{.Permalink}}">
-	        	{{ if eq .Title ".Site.Title" }}
-	        		{{ with .File }}
-	        			{{ .File.BaseFileName | humanize | title }}
-	        		{{ end }}
-				{{ end }}
-			</a>
-	    </li>
+    		{{ with .File }}
+	     		{{ $directory = .File.Dir | humanize | title }}
+	     		{{ $filetitle = .File.BaseFileName | humanize | title }}
+	     	{{ end }}
+	    	{{ if eq $directory "" }}
+	    		<h3>{{ $section }}</h3>
+	    	{{ else if ne $section $directory }}
+	    		<h4>{{ replace $directory $sectionKey "" }}</h4>
+	    		{{ $section = $directory }}
+	    	{{ end }}
+	    	{{ if ne $filetitle "" }}
+	    		<li>
+	      		<a href="{{.Permalink}}">{{ $filetitle }}</a>
+	    		</li>
+	    	{{ end }}
 		{{ end }}
     </ul>
 {{ end }}
