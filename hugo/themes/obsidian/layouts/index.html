@@ -6,23 +6,34 @@
 	{{ $section := $sectionKey }}
 	{{ $directory := "" }}
 	{{ $filetitle := "" }}
-    <ul>
+	{{ $count := 0 }}
+    <section>
     	{{ range .Pages }}
     		{{ with .File }}
 	     		{{ $directory = .File.Dir | humanize | title }}
 	     		{{ $filetitle = .File.BaseFileName | humanize | title }}
 	     	{{ end }}
+	     	{{/* Top level section */}}
+	     	{{print $count}}
 	    	{{ if eq $directory "" }}
+		     		</li>
+		     		</ul>
+	    		<li>
 	    		<h3>{{ $section }}</h3>
+	    		<ul>
+	    	{{/* Next level section */}}
 	    	{{ else if ne $section $directory }}
 	    		<h4>{{ replace $directory $sectionKey "" }}</h4>
-	    		{{ $section = $directory }}
 	    	{{ end }}
 	    	{{ if ne $filetitle "" }}
 	    		<li>
 	      		<a href="{{.Permalink}}">{{ $filetitle }}</a>
 	    		</li>
 	    	{{ end }}
+	    	{{ if ne $section $directory }}
+	    		{{ $section = $directory }}
+	    	{{ end }}
+	    	{{ $count = add $count 1 }}
 		{{ end }}
-    </ul>
+    </section>
 {{ end }}
