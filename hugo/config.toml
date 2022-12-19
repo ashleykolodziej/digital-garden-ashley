@@ -2,3 +2,6 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Ashley Notes'
 theme = 'obsidian'
+[[module.mounts]]
+  source = 'content/assets'
+  target = 'assets'

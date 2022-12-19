@@ -1,5 +1,5 @@
 {{/*
-	Searches for ![[]] syntax and embeds it.
+	Searches for ![[]] syntax and embeds associated content.
 */}}
 
 {{ $processedContent := .Scratch.Get "processedContent" | markdownify }}
@@ -17,6 +17,7 @@
 	{{ $filename := trim . "![]" }}
 	{{ $extension := path.Ext $filename }}
 	{{ $filename = htmlUnescape $filename }}
+	{{ $embedContent := "" }}
 
 	{{/* Hugo can't find files with dots in them without an extension. */}}
 	{{ if (eq $extension "") }}
@@ -27,25 +28,35 @@
 		{{ $parts := split $rel "/" }}
 		{{ $base := first (sub (len $parts) 2) $parts }}
 		{{ $fileref := path.Join $base $fullfilename }}
-		{{ $embedContent := os.ReadFile $fileref | markdownify }}
+		{{ $embedContent = os.ReadFile $fileref | markdownify }}
 
 		{{/* Wrap in HTML for styling	 */}}
 		{{ $embedContent = printf "%s%s%s" `<div class="embed">` $embedContent `</div>` }}
 
-		{{/* Escape the filename because I created bad filenames */}}
-		{{ $escapedFilename := $filename | replaceRE `\?` `\?` }}
-		{{ $escapedFilename = $escapedFilename | replaceRE `\.` `\.` }}
-		{{ $escapedFilename = $escapedFilename | replaceRE `\(` `\(` }}
-		{{ $escapedFilename = $escapedFilename | replaceRE `\)` `\)` }}
-		{{ $escapedFilename = $escapedFilename | replaceRE `\"` `\"` }}
-
-		{{/* Save a copy of the wikilink regex for later replacement */}}
-		{{ $wikilink :=  printf "%s%s%s" $firstBracket $escapedFilename $lastBracket }}
-
-		{{ $noteContent := $processedContent | replaceRE $wikilink $embedContent }}
-
-		{{ $processedContent = $noteContent }}
+	{{ else }}
+		{{ $file := resources.GetMatch $filename }}
+		{{ with $file }}
+			{{ if eq .ResourceType "application" }}
+				{{ $embedContent = printf "%s%s%s" `<embed src="` .RelPermalink `" type="application/pdf" width="100%" height="600px" />` }}
+			{{ else }}
+				{{ $embedContent = printf "%s%s%s" `<img src="` .RelPermalink `">` }}
+			{{ end }}
+		{{ end }}
 	{{ end }}
+
+	{{/* Escape the filename because I created bad filenames */}}
+	{{ $escapedFilename := $filename | replaceRE `\?` `\?` }}
+	{{ $escapedFilename = $escapedFilename | replaceRE `\.` `\.` }}
+	{{ $escapedFilename = $escapedFilename | replaceRE `\(` `\(` }}
+	{{ $escapedFilename = $escapedFilename | replaceRE `\)` `\)` }}
+	{{ $escapedFilename = $escapedFilename | replaceRE `\"` `\"` }}
+
+	{{/* Save a copy of the wikilink regex for later replacement */}}
+	{{ $wikilink :=  printf "%s%s%s" $firstBracket $escapedFilename $lastBracket }}
+
+	{{ $noteContent := $processedContent | replaceRE $wikilink $embedContent }}
+
+	{{ $processedContent = $noteContent }}
 {{ end }}
 
 {{ $.Scratch.Set "processedContent" $processedContent }}
