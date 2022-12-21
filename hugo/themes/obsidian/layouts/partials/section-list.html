@@ -12,13 +12,14 @@
     				{{ $difference := complement $pathPieces $printedPieces }}
     				{{ range $difference }}
     					{{ $openuls = sub $openuls 1 }}
-    					</ul>
+    					</ul></li>
     				{{ end }}
     				{{ $printedPieces = intersect $printedPieces $pathPieces }}
     			{{ end }}
     			{{ if and (not (in $printedPieces . )) (ne . "") }}
-    				<li><h4>{{ print . }}</h4></li>
     				{{ $currentSection = . }}
+    				<li>
+    				<h4>{{ print . }}</h4>
     				<ul>
     				{{ $openuls = add $openuls 1 }}
     			{{ else if and (eq . "") (ne $filetitle "") }}
