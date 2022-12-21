@@ -1,0 +1,38 @@
+{{ range .Site.Pages.GroupBy "Section" }}
+	{{ $printedPieces := slice nil }}
+	{{ $currentSection := "" }}
+	{{ $openuls := 0 }}
+    <section>
+    	{{ range sort .Pages "Title" }}
+    		{{ $pathPieces := split .File.Dir "/" }}
+    		{{ $filetitle := .File.BaseFileName | humanize | title }}
+    		{{ $page := . }}
+    		{{ range $pathPieces }}
+    			{{ if and (not (in $printedPieces . )) (not (in $pathPieces $currentSection )) }}
+    				{{ $difference := complement $pathPieces $printedPieces }}
+    				{{ range $difference }}
+    					{{ $openuls = sub $openuls 1 }}
+    					</ul>
+    				{{ end }}
+    				{{ $printedPieces = intersect $printedPieces $pathPieces }}
+    			{{ end }}
+    			{{ if and (not (in $printedPieces . )) (ne . "") }}
+    				<h4>{{ print . }}</h4>
+    				{{ $currentSection = . }}
+    				<ul>
+    				{{ $openuls = add $openuls 1 }}
+    			{{ else if and (eq . "") (ne $filetitle "") }}
+	    			<li>
+	    				<a href="{{$page.Permalink}}">
+	    				{{ $filetitle }}
+	    				</a>
+	    			</li>
+    			{{ end }}
+    			{{ $printedPieces = union $printedPieces ( slice . ) }}
+    		{{ end }}
+		{{ end }}
+		{{ range $sequence := (seq $openuls) }}
+			</ul>
+		{{ end }}
+    </section>
+{{ end }}

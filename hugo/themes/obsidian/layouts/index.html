@@ -1,39 +1,4 @@
 <h1>{{.Site.Title}}</h1>
 <h2>Pages</h2>
 
-{{ range .Site.Pages.GroupBy "Section" }}
-	{{ $sectionKey := .Key | humanize | title }}
-	{{ $section := $sectionKey }}
-	{{ $directory := "" }}
-	{{ $filetitle := "" }}
-	{{ $count := 0 }}
-    <section>
-    	{{ range .Pages }}
-    		{{ with .File }}
-	     		{{ $directory = .File.Dir | humanize | title }}
-	     		{{ $filetitle = .File.BaseFileName | humanize | title }}
-	     	{{ end }}
-	     	{{/* Top level section */}}
-	     	{{print $count}}
-	    	{{ if eq $directory "" }}
-		     		</li>
-		     		</ul>
-	    		<li>
-	    		<h3>{{ $section }}</h3>
-	    		<ul>
-	    	{{/* Next level section */}}
-	    	{{ else if ne $section $directory }}
-	    		<h4>{{ replace $directory $sectionKey "" }}</h4>
-	    	{{ end }}
-	    	{{ if ne $filetitle "" }}
-	    		<li>
-	      		<a href="{{.Permalink}}">{{ $filetitle }}</a>
-	    		</li>
-	    	{{ end }}
-	    	{{ if ne $section $directory }}
-	    		{{ $section = $directory }}
-	    	{{ end }}
-	    	{{ $count = add $count 1 }}
-		{{ end }}
-    </section>
-{{ end }}
+{{- partial "section-list.html" . -}}
